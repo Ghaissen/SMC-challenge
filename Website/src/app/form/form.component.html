@@ -1,0 +1,118 @@
+<br>
+<div class="form-container">
+<form [formGroup]="surveyForm" (ngSubmit)="submitForm()">
+    <div class="form-question">
+      <label for="mentalWellBeing">How would you rate your overall mental well-being?</label>
+      <select formControlName="mentalWellBeing" id="mentalWellBeing">
+        <option value="1">1 (Low)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (High)</option>
+      </select>
+    </div>
+    <div class="form-question">
+        <label for="stressFrequency">How often do you feel stressed on a typical week?</label>
+        <select formControlName="stressFrequency" id="stressFrequency">
+          <option value="1">1 (Low)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (High)</option>
+        </select>
+      </div>
+      <div class="form-question">
+        <label for="anxietyFrequency"> How frequent have you experienced feelings of excessive worry or anxiety in the past month?</label>
+        <select formControlName="anxietyFrequency" id="anxietyFrequency">
+          <option value="1">1 (Low)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (High)</option>
+        </select>
+      </div>
+      <div class="form-question">
+        <label for="lowMoodFrequency"> Over the past month how frequent have you experienced a persistent low mood or a lack of interest in activities you usually enjoy?</label>
+        <select formControlName="lowMoodFrequency" id="lowMoodFrequency">
+          <option value="1">1 (Low)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (High)</option>
+        </select>
+      </div>
+      <div class="form-question">
+        <label for="selfEsteem"> How would you rate your self-esteem and confidence in your abilities?</label>
+        <select formControlName="selfEsteem" id="selfEsteem">
+          <option value="1">1 (Low)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (High)</option>
+        </select>
+      </div>
+      <div class="form-question">
+        <label for="physicalHealth"> How would you rate your overall physical health?</label>
+        <select formControlName="physicalHealth" id="physicalHealth">
+          <option value="1">1 (Low)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (High)</option>
+        </select>
+      </div>
+      <div class="form-question">
+        <label for="exerciseFrequency"> How many times do you exercise with moderate to high intensity in a week?</label>
+        <select formControlName="exerciseFrequency" id="exerciseFrequency">
+          <option value="1">1 (often)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (frequently)</option>
+        </select>
+      </div>
+      <div class="form-question">
+        <label for="eatingHabits"> How would you describe your eating habits?</label>
+        <select formControlName="eatingHabits" id="eatingHabits">
+          <option value="1">1 (Bad)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Good)</option>
+        </select>
+      </div>
+      <div class="form-question">
+        <label for="socialLifeSatisfaction">How satisfied are you with your current social life?</label>
+        <select formControlName="socialLifeSatisfaction" id="socialLifeSatisfaction">
+          <option value="1">1 (not satisfied)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (very satisfied)</option>
+        </select>
+      </div>
+      <div class="form-question">
+        <label for="groupActivitiesFrequency"> How often do you participate in group activities or gatherings?</label>
+        <select formControlName="groupActivitiesFrequency" id="groupActivitiesFrequency">
+          <option value="1">1 (Low)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (High)</option>
+        </select>
+      </div>
+      <div class="form-question">
+        <label for="comfortInSchool"> How mcuh do you feel comfortable in your school?</label>
+        <select formControlName="comfortInSchool" id="comfortInSchool">
+          <option value="1">1 (Low)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (High)</option>
+        </select>
+      </div>
+
+  
+    <button type="submit">Submit</button>
+  </form>
+</div>

@@ -1,0 +1,83 @@
+<div *ngIf="formValues">
+    <div class="tips-container">
+      
+      <h2>Tips</h2>
+
+      <ng-container >
+  <div *ngIf="formValues.mentalWellBeing <= 2" class="tip-section">
+    <h3 class="tip-title">Tips to Improve School Grades:</h3>
+    <p>Consider seeking support from a teacher or counselor to address any challenges you may be facing.</p>
+    <p>Create a study schedule and stick to it consistently.</p>
+    <!-- Add more tips as needed -->
+  </div>
+
+  <div *ngIf="formValues.stressFrequency > 3" class="tip-section">
+    <h3 class="tip-title">Tips for Managing Stress:</h3>
+    <p>Practice stress-reducing techniques such as deep breathing or meditation.</p>
+    <p>Break down tasks into smaller, manageable steps to reduce overwhelming feelings.</p>
+    <!-- Add more stress-related tips as needed -->
+  </div>
+
+  <div *ngIf="formValues.anxietyFrequency > 3" class="tip-section">
+    <h3 class="tip-title">Tips for Managing Anxiety:</h3>
+    <p>Consider talking to a mental health professional for guidance and support.</p>
+    <p>Practice mindfulness and relaxation techniques to cope with anxiety.</p>
+    <!-- Add more anxiety-related tips as needed -->
+  </div>
+
+  <div *ngIf="formValues.lowMoodFrequency > 3" class="tip-section">
+    <h3 class="tip-title">Tips for Improving Mood:</h3>
+    <p>Engage in activities you enjoy to boost your mood.</p>
+    <p>Consider talking to a counselor or therapist for additional support.</p>
+    <!-- Add more mood-related tips as needed -->
+  </div>
+
+  <div *ngIf="formValues.selfEsteem <= 2" class="tip-section">
+    <h3 class="tip-title">Tips for Boosting Self-Esteem:</h3>
+    <p>Acknowledge your achievements and celebrate small successes.</p>
+    <p>Challenge negative thoughts and focus on your strengths.</p>
+    <!-- Add more self-esteem-related tips as needed -->
+  </div>
+  <div *ngIf="formValues.physicalHealth < 3" class="tip-section">
+    <h3 class="tip-title">Tips for Improving Physical Health:</h3>
+    <p>Ensure you have a balanced diet with plenty of fruits and vegetables.</p>
+    <p>Incorporate regular exercise into your routine, even if it's a short walk each day.</p>
+    <!-- Add more physical health-related tips as needed -->
+  </div>
+  <div *ngIf="formValues.exerciseFrequency < 2" class="tip-section">
+    <h3 class="tip-title">Tips for Increasing Exercise Frequency:</h3>
+    <p>Explore different types of physical activities and find something you enjoy.</p>
+    <p>Start with small, manageable exercises and gradually increase intensity.</p>
+    <!-- Add more exercise-related tips as needed -->
+  </div>
+  <div *ngIf="formValues.eatingHabits < 3" class="tip-section">
+    <h3 class="tip-title">Tips for Improving Eating Habits:</h3>
+    <p>Include a variety of nutritious foods in your meals for a balanced diet.</p>
+    <p>Avoid excessive consumption of processed foods and sugary snacks.</p>
+    <!-- Add more eating habits-related tips as needed -->
+  </div>
+  <div *ngIf="formValues.socialLifeSatisfaction < 3" class="tip-section">
+    <h3 class="tip-title">Tips for Enhancing Social Life:</h3>
+    <p>Initiate social activities with friends or classmates to build connections.</p>
+    <p>Consider joining clubs or groups to meet new people and expand your social circle.</p>
+    <!-- Add more social life-related tips as needed -->
+  </div>
+
+  <!-- Display tip based on groupActivitiesFrequency value -->
+  <div *ngIf="formValues.groupActivitiesFrequency < 3" class="tip-section">
+    <h3 class="tip-title">Tips for Participating in Group Activities:</h3>
+    <p>Explore opportunities to engage in group activities or team-based projects.</p>
+    <p>Join clubs or organizations that align with your interests for a sense of belonging.</p>
+    <!-- Add more group activities-related tips as needed -->
+  </div>
+
+  <!-- Display tip based on comfortInSchool value -->
+  <div *ngIf="formValues.comfortInSchool < 3" class="tip-section">
+    <h3 class="tip-title">Tips for Increasing Comfort in School:</h3>
+    <p>Communicate with teachers or counselors about any concerns or challenges you may be facing.</p>
+    <p>Identify a comfortable study environment and establish a routine to ease school-related stress.</p>
+    <!-- Add more comfort in school-related tips as needed -->
+  </div>
+</ng-container>
+</div>
+</div>

@@ -1,0 +1,50 @@
+/* src/app/tips/tips.component.css */
+.results-container {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.results-container h2 {
+  color: #333;
+}
+.tips-container {
+  margin-top: 50px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tip-section {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.tip-title {
+  color: #4c7faf; /* Your primary color */
+  margin-bottom: 10px;
+}
+
+.tip-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tip-item {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+/* Add hover effect for a subtle interaction */
+.tip-section:hover {
+  transform: translateY(-3px);
+  transition: transform 0.2s ease-in-out;
+}

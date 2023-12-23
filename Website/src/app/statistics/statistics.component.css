@@ -1,0 +1,103 @@
+
+.statistic-block {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .statistic-block img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* Add this styling in your statistics.component.css */
+.survey-description {
+  max-width: 100%;
+  margin: auto;
+  text-align: justify;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.survey-description p {
+  margin: 0;
+}
+
+
+/* Add this styling in your statistics.component.css */
+.survey-call-to-action {
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.survey-call-to-action h3 {
+  color: #333;
+}
+
+.survey-call-to-action p {
+  margin: 10px 0;
+}
+
+.survey-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4c7faf;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.survey-link:hover {
+  background-color: #1b1d9b;
+}
+
+  /* Add this styling in your statistics.component.css */
+.statistics-visualizations {
+  max-width: 100%;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.visualization {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h3, h4 {
+  color: #333;
+}
+
+p {
+  color: #555;
+  font-size:18px;
+  text-align: center;
+}
+
+/* Example: Add styles for your visualizations (replace with actual visualization styles) */
+/* app-histogram, app-boxplot, app-pie-chart, app-confusion-matrix {
+  width: 100%;
+  height: 300px; /* Adjust height as needed */
+/*} */
+.image-container {
+  display: flex;
+}

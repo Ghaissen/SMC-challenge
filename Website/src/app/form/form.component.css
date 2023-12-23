@@ -1,0 +1,55 @@
+/* src/app/form/form.component.css */
+
+:host {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../../assets/hhhhhhh31151378_7755606.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #f0f0f0; /* Set your desired background color */
+}
+
+.form-container {
+  margin: 50px auto;
+  background-color: #fff; /* Set the background color of the form container */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 700px; /* Limit the width for better readability */
+  width: 90%;
+}
+
+.form-question {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333; /* Text color */
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9; /* Light background color */
+}
+
+button {
+  background-color: #4c7faf; /* Green color for the submit button */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+  background-color: #1b1d9b; /* Darker green on hover */
+}
